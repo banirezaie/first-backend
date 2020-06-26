@@ -6,18 +6,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          This is a Back-end and Node.js server so check the back-end and
+          reference folder
+        </div>
+        <h5>
+          if you run the http folder from reference directory you will be able
+          to see localhost:5000
+        </h5>
+        <p>however I strongly recommend you to ignore this page</p>
       </header>
     </div>
   );
